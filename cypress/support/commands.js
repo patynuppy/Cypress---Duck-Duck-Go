@@ -25,8 +25,18 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('procuraResultadosMaisBotaoResultados', function() {
-  cy.get('.result')
-    .should('have.length', 1)
+  cy.get('.nrn-react-div')
+    .should('have.length', 10)
     .last()
     .should('contain', 'Mais resultados')
 })
+
+
+
+
+
+
+// cy.get('[data-testid="result"]')
+// .should('have.length', 9)
+// .last()
+// .should('contain', 'Mais resultados')

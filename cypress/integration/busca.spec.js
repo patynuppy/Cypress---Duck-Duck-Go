@@ -16,7 +16,7 @@ describe('Busca do Duck Duck Go por "cypress.io"', function () {
   })
   
 
-  it('Digitando na busca e apertando o enter', function () {
+  it.only('Digitando na busca e apertando o enter', function () {
     cy.get('@buscaCampo')
       .type(`${buscaTermos}{enter}`)
 
