@@ -7,7 +7,7 @@ Cypress - Teste com a busca do Duck Duck Go
 <p align="center">
     <img src="https://logos-marques.com/wp-content/uploads/2021/03/DuckDuckGo-Logo.png" alt="Logo" width="200">
 
-  <h3 align="center">Criando um post no <a href="https://duckduckgo.com">Duck Duck Go</a></h3>
+  <h3 align="center">Realizando uma busca com o <a href="https://duckduckgo.com">Duck Duck Go</a></h3>
  <br />
 
 
