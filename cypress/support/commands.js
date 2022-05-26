@@ -25,8 +25,8 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('procuraResultadosMaisBotaoResultados', function() {
-  cy.get('.nrn-react-div')
-    .should('have.length', 10)
+  cy.get('.result')
+    .should('have.length', 1)
     .last()
     .should('contain', 'Mais resultados')
 })
@@ -36,7 +36,11 @@ Cypress.Commands.add('procuraResultadosMaisBotaoResultados', function() {
 
 
 
-// cy.get('[data-testid="result"]')
-// .should('have.length', 9)
-// .last()
-// .should('contain', 'Mais resultados')
+//________________________________________
+//Podemos utilizar tb:                    | 
+// cy.get('.nrn-react-div')               |
+// cy.get('[data-testid="result"]')       | 
+//   .should('have.length', 9)            |
+//   .last()                              |
+//   .should('contain', 'Mais resultados')|
+//________________________________________|

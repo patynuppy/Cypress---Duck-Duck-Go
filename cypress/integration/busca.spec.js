@@ -16,7 +16,7 @@ describe('Busca do Duck Duck Go por "cypress.io"', function () {
   })
   
 
-  it.only('Digitando na busca e apertando o enter', function () {
+  it('Digitando na busca e apertando o enter', function () {
     cy.get('@buscaCampo')
       .type(`${buscaTermos}{enter}`)
 
@@ -53,19 +53,34 @@ describe('Busca do Duck Duck Go por "cypress.io"', function () {
   })
 
 
+  it('Digitando na busca e selecionando seta para baixo uma vez', function () {
+    cy.get('@buscaCampo')
+    .type(`${buscaTermos}{downarrow}{enter}`, {delay: 300})
+
+    cy.procuraResultadosMaisBotaoResultados()
+
+  })
+
+
+  it('Digitando na busca e selecionando seta para baixo duas vezes', function () {
+    cy.get('@buscaCampo')
+    .type(`${buscaTermos}{downarrow}{downarrow}{enter}`, {delay: 300})
+
+    cy.procuraResultadosMaisBotaoResultados()
+
+  })
+
+
+  it('Digitando na busca e selecionando seta para baixo três vezes', function () {
+    cy.get('@buscaCampo')
+    .type(`${buscaTermos}{downarrow}{downarrow}{downarrow}{enter}`, {delay: 300})
+
+    cy.procuraResultadosMaisBotaoResultados()
+
+  })
+
+
 })
- 
-
-
-
-
-// it('Digitando na busca e apertando seta para baixo duas vezes', function () {
-    
-// })
-
-// it('Digitando na busca e apertando seta para baixo três vezes', function () {
-    
-// }) 
 
 
 
