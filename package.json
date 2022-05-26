@@ -1,0 +1,25 @@
+{
+  "name": "get-started",
+  "version": "1.0.0",
+  "description": "Cypress - Busca com o Duck Duck Go",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:patynuppy/Cypress-Duck-Duck-Go.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Patrícia Cupa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patynuppy/Cypress-Duck-Duck-Go"
+  },
+  "homepage": "https://github.com/patynuppy/Cypress-Duck-Duck-Go/blob/main/README.md",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
