@@ -1,5 +1,5 @@
 # Cypress-Duck-Duck-Go
-Cypress - Teste com a busca do Duck Duck Go
+
 
 
 
@@ -23,3 +23,6 @@ Cypress - Teste com a busca do Duck Duck Go
 ##
 Baseado nos estudos do Walmyr Filho -> https://github.com/wlsf82 - Obrigada!!
 
+
+##
+![ezgif-3-4e9c546b85](https://user-images.githubusercontent.com/76183727/170577210-b09909b0-683e-430e-b9f2-35bb01c7a2f3.gif)
